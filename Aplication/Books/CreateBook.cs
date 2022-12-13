@@ -34,7 +34,7 @@ public class AddBook
                book.Title == request.Title && book.Author == request.Author, cancellationToken: cancellationToken);
          if (existedBook != null)
          {
-            throw new Exception("Error, This post already exist, change the title");
+            throw new Exception("Error, This book already exist, change the title");
          }
 
          var newBook = new Book

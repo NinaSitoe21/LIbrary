@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/elton/RiderProjects/LIbrary/Aplication/Aplication.csproj": {}
+    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\Aplication.csproj": {}
   },
   "projects": {
-    "/home/elton/RiderProjects/LIbrary/Aplication/Aplication.csproj": {
+    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/elton/RiderProjects/LIbrary/Aplication/Aplication.csproj",
+        "projectUniqueName": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\Aplication.csproj",
         "projectName": "Aplication",
-        "projectPath": "/home/elton/RiderProjects/LIbrary/Aplication/Aplication.csproj",
-        "packagesPath": "/home/elton/.nuget/packages/",
-        "outputPath": "/home/elton/RiderProjects/LIbrary/Aplication/obj/",
+        "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\Aplication.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/elton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/elton/RiderProjects/LIbrary/Persitense/Persitense.csproj": {
-                "projectPath": "/home/elton/RiderProjects/LIbrary/Persitense/Persitense.csproj"
+              "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj": {
+                "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj"
               }
             }
           }
@@ -65,8 +65,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,21 +74,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/elton/Programas/dotnet-sdk-6.0.403-linux-x64/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/elton/RiderProjects/LIbrary/Domain/Domain.csproj": {
+    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/elton/RiderProjects/LIbrary/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/elton/RiderProjects/LIbrary/Domain/Domain.csproj",
-        "packagesPath": "/home/elton/.nuget/packages/",
-        "outputPath": "/home/elton/RiderProjects/LIbrary/Domain/obj/",
+        "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/elton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -124,8 +123,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -134,21 +132,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/elton/Programas/dotnet-sdk-6.0.403-linux-x64/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/elton/RiderProjects/LIbrary/Persitense/Persitense.csproj": {
+    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/elton/RiderProjects/LIbrary/Persitense/Persitense.csproj",
+        "projectUniqueName": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj",
         "projectName": "Persitense",
-        "projectPath": "/home/elton/RiderProjects/LIbrary/Persitense/Persitense.csproj",
-        "packagesPath": "/home/elton/.nuget/packages/",
-        "outputPath": "/home/elton/RiderProjects/LIbrary/Persitense/obj/",
+        "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/elton/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -160,8 +158,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/elton/RiderProjects/LIbrary/Domain/Domain.csproj": {
-                "projectPath": "/home/elton/RiderProjects/LIbrary/Domain/Domain.csproj"
+              "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj"
               }
             }
           }
@@ -193,8 +191,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -203,7 +200,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/elton/Programas/dotnet-sdk-6.0.403-linux-x64/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

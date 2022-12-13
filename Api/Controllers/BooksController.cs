@@ -28,10 +28,22 @@ public class BooksController:BaseController
         return await _mediator.Send(new ListAllBooks.ListAllBooksQuery());
     }
     
-    //[HttpGet("")]
-    //public async Task<ActionResult<List<Book>>> SearchBook()
-    //{
-      //  return await _mediator.Send(new ListAllBooks.ListAllBooksQuery());
-    //}
+    [HttpGet("{id}")]
+    public async Task<Book> GetBookById(int id)
+    {
+        return await _mediator.Send(new ListBookById.ListBookByIdQuery{Id = id});
+    }
 
+    [HttpPut("{id}")]
+    public async Task<Book> UpdateBook(UpdateBook.UpdateBookCommand command, int id)
+    {
+        command.Id = id;
+        return await _mediator.Send(command);
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<Book> DeleteBook(int id)
+    {
+        return await _mediator.Send(new DeleteBook.DeleteBookCommand{Id = id});
+    }
 }
