@@ -1,3 +1,5 @@
+using System.Net;
+using Aplication.Errors;
 using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +27,8 @@ public class ListAllBooks
         {
            var books = await _context.Books.ToListAsync(cancellationToken);
 
+           if (books is null)
+               throw new RestException(HttpStatusCode.NotFound, "Haven't books");
            return books;
         }
     }

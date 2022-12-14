@@ -1,3 +1,5 @@
+using System.Net;
+using Aplication.Errors;
 using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -34,7 +36,7 @@ public class AddBook
                book.Title == request.Title && book.Author == request.Author, cancellationToken: cancellationToken);
          if (existedBook != null)
          {
-            throw new Exception("Error, This book already exist, change the title");
+            throw new RestException(HttpStatusCode.Conflict,"Error, book already exist");
          }
 
          var newBook = new Book
@@ -52,7 +54,7 @@ public class AddBook
          var result = await _context.SaveChangesAsync(cancellationToken)<0;
          if (result)
          {
-            throw new Exception("AN ERROR OCCURRED");
+            throw new RestException(HttpStatusCode.BadRequest,"AN ERROR OCCURRED");
          }
          return newBook;
       }

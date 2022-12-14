@@ -1,4 +1,6 @@
-﻿using Domain;
+﻿using System.Net;
+using Aplication.Errors;
+using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persitense;
@@ -32,7 +34,7 @@ public class UpdateBook
             var book = await _context.Books.FirstOrDefaultAsync(book => book.Id == request.Id);
             
             if (book is null)
-                throw new Exception("Book not found");
+                throw new RestException(HttpStatusCode.NotFound,"Book not found");
             
             book.Author = request.Author;
             book.Title = request.Title;
@@ -47,9 +49,8 @@ public class UpdateBook
             var result = await _context.SaveChangesAsync(cancellationToken) < 0;
             if (result)
             {
-                throw new Exception("An Error Occurred while updating");
+                throw new Exception("An Error Occurred");
             }
-            
             return book;
         }
     }

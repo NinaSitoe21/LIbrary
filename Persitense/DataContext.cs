@@ -10,4 +10,5 @@ public class DataContext:IdentityDbContext
     {
     }
     public DbSet<Book> Books { get; set; }
+    public DbSet<ReadBook> ReadBooks { get; set; }
 }

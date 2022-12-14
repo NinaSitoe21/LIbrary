@@ -31,7 +31,7 @@ public class BooksController:BaseController
     [HttpGet("{id}")]
     public async Task<Book> GetBookById(int id)
     {
-        return await _mediator.Send(new ListBookById.ListBookByIdQuery{Id = id});
+        return await _mediator.Send(new GetBookById.GetBookByIdQuery{Id = id});
     }
 
     [HttpPut("{id}")]
