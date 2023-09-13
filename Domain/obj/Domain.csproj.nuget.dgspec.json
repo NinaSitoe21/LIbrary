@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj": {}
+    "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj": {
+    "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\obj\\",
+        "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Nina Sitoe21\\.nuget\\packages\\",
+        "outputPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nina Sitoe21\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -49,16 +49,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

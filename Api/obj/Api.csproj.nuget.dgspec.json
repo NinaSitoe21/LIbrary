@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\api\\Api.csproj": {}
+    "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\API\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\api\\Api.csproj": {
+    "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\API\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\api\\Api.csproj",
+        "projectUniqueName": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\API\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\api\\Api.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\api\\obj\\",
+        "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\API\\Api.csproj",
+        "packagesPath": "C:\\Users\\Nina Sitoe21\\.nuget\\packages\\",
+        "outputPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nina Sitoe21\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Infrastruture\\Infrastruture.csproj": {
-                "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Infrastruture\\Infrastruture.csproj"
+              "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Infrastruture\\Infrastruture.csproj": {
+                "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Infrastruture\\Infrastruture.csproj"
               }
             }
           }
@@ -87,10 +87,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -99,21 +118,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\Aplication.csproj": {
+    "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Aplication\\Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\Aplication.csproj",
+        "projectUniqueName": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Aplication\\Aplication.csproj",
         "projectName": "Aplication",
-        "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\Aplication.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\obj\\",
+        "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Aplication\\Aplication.csproj",
+        "packagesPath": "C:\\Users\\Nina Sitoe21\\.nuget\\packages\\",
+        "outputPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nina Sitoe21\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -125,8 +144,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj": {
-                "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj"
+              "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Persitense\\Persitense.csproj": {
+                "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Persitense\\Persitense.csproj"
               }
             }
           }
@@ -164,30 +183,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj": {
+    "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\obj\\",
+        "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Nina Sitoe21\\.nuget\\packages\\",
+        "outputPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nina Sitoe21\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -222,30 +256,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Infrastruture\\Infrastruture.csproj": {
+    "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Infrastruture\\Infrastruture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Infrastruture\\Infrastruture.csproj",
+        "projectUniqueName": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Infrastruture\\Infrastruture.csproj",
         "projectName": "Infrastruture",
-        "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Infrastruture\\Infrastruture.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Infrastruture\\obj\\",
+        "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Infrastruture\\Infrastruture.csproj",
+        "packagesPath": "C:\\Users\\Nina Sitoe21\\.nuget\\packages\\",
+        "outputPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Infrastruture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nina Sitoe21\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -257,8 +306,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\Aplication.csproj": {
-                "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Aplication\\Aplication.csproj"
+              "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Aplication\\Aplication.csproj": {
+                "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Aplication\\Aplication.csproj"
               }
             }
           }
@@ -288,30 +337,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj": {
+    "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Persitense\\Persitense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj",
+        "projectUniqueName": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Persitense\\Persitense.csproj",
         "projectName": "Persitense",
-        "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\Persitense.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Persitense\\obj\\",
+        "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Persitense\\Persitense.csproj",
+        "packagesPath": "C:\\Users\\Nina Sitoe21\\.nuget\\packages\\",
+        "outputPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Persitense\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Nina Sitoe21\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -323,8 +387,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Chiziane\\Zelia\\Virtual_Library\\LIbrary\\Domain\\Domain.csproj"
+              "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\Nina\\XPProjects\\LIBRARY\\LIbrary\\Domain\\Domain.csproj"
               }
             }
           }
@@ -356,16 +420,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
